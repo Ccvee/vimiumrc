@@ -1,0 +1,62 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://alis.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.tradingview.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://calendar.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://vanis.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://uk.tradingview.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://mope.io/*",
+      "passKeys": "w"
+    },
+    {
+      "pattern": "https?://mope.io/*",
+      "passKeys": "W"
+    },
+    {
+      "pattern": "https?://mope.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.youtube.com/*",
+      "passKeys": "m"
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\n\" map g scrollToTop\nmap <space>j previousTab\nmap <space>k nextTab\nmap h goBack\nmap H scrollLeft\nmap l goForward\nmap L scrollRight\nmap i focusInput\nunmap g0\nunmap g$\nmap 0 firstTab\nmap $ lastTab\nmap [ goPrevious\nmap ] goNext",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ng: https://www.google.com/search?q=%s Google\ngi: \thttps://www.google.com/search?tbm=isch&q=%s Google Image Search\nl: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\ny: https://www.youtube.com/results?search_query=%s Youtube\ngm: https://www.google.com/maps?q=%s Google maps\nd: https://duckduckgo.com/?q=%s DuckDuckGo\na: https://www.amazon.co.jp/s/?field-keywords=%s Amazon\n\n# Find your way from your home to places using Google Maps\nhome: https://www.google.com/maps/dir/home/%s",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
